@@ -47,13 +47,14 @@
 
         <div class="d-flex align-items-center justify-content-between">
             <a href="{{ route('admin.index') }}" class="logo d-flex align-items-center">
-                <img src="{{ asset('admin/assets/img/logo.png') }}" alt="" style="width: 35px; height: 150px;"> <!-- Sesuaikan ukuran yang Anda inginkan -->
+                <img src="{{ asset('admin/assets/img/logo.png') }}" alt="" style="width: 35px; height: 150px;">
+                <!-- Sesuaikan ukuran yang Anda inginkan -->
                 <span class="d-none d-lg-block">SIMAMI</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div>
-        
-        
+
+
         <!-- End Logo -->
 
         <!-- Start Icons Navigation -->
@@ -253,7 +254,8 @@
                         <li>
                             <a class="dropdown-item d-flex align-items-center" href="#">
                                 <i class="bi bi-box-arrow-right"></i>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                    class="d-none">
                                     @csrf
                                     <span>Sign Out</span>
                                 </form>
@@ -278,22 +280,31 @@
         <ul class="sidebar-nav" id="sidebar-nav">
 
             <!-- Start Dashboard Nav -->
-            <li class="nav-item">
-                <a class="nav-link" href="{{route('admin.index')}}">
+            <li class="nav-item" >
+                <a class="nav-link collapsed" href="{{ route('admin.index') }}" onclick="showPage('dashboard')">
                     <i class="bi bi-grid"></i>
                     <span>Dashboard</span>
                 </a>
             </li>
             <!-- End Dashboard Nav -->
-            
+
             <!-- Start Magang Page Nav -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="{{route('admin.magang.index')}}">
+                <a class="nav-link collapsed" href="{{ route('admin.magang.index') }}" onclick="showPage('magang')">
                     <i class="bi bi-briefcase-fill"></i>
                     <span>Magang</span>
                 </a>
             </li>
             <!-- End Magang Page Nav -->
+
+            <!-- Start Perusahaan Page Nav -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="{{ route('admin.company.index') }}" onclick="showPage('perusahaan')">
+                    <i class="bx bxs-business"></i>
+                    <span>Perusahaan</span>
+                </a>
+            </li>
+            <!-- End Perusahaan Page Nav -->
 
             <!-- Start Persetujuan Page Nav -->
             <li class="nav-item">
@@ -312,7 +323,7 @@
                 </a>
             </li>
             <!-- End Profile Page Nav -->
-            
+
             <!-- Start Sign Out Page Nav -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#">
@@ -321,34 +332,6 @@
                 </a>
             </li>
             <!-- End Sign Out Page Nav -->
-
-            <!-- Start Register Page Nav -->
-            {{-- <li class="nav-item">
-                <a class="nav-link collapsed" href="pages-register.html">
-                    <i class="bi bi-card-list"></i>
-                    <span>Register</span>
-                </a>
-            </li>
-            <!-- End Register Page Nav -->
-
-
-            <!-- Start Error 404 Page Nav -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="pages-error-404.html">
-                    <i class="bi bi-dash-circle"></i>
-                    <span>Error 404</span>
-                </a>
-            </li>
-            <!-- End Error 404 Page Nav -->
-
-            <!-- Start Blank Page Nav -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="pages-blank.html">
-                    <i class="bi bi-file-earmark"></i>
-                    <span>Blank</span>
-                </a>
-            </li> --}}
-            <!-- End Blank Page Nav -->
 
         </ul>
 

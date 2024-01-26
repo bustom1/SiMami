@@ -16,7 +16,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12">
+        <div class=" col-xxl-12 col-md-6">
             <div class="card top-selling overflow-auto">
                 
                 <div class="card-body pb-0 table-responsive">
@@ -59,8 +59,13 @@
                                 <th scope="row" style="max-width: 100px;"><a href="#"><img
                                             src="{{ asset('admin/assets/img/product-2.jpg') }}"
                                             alt="" style="max-width: 100%;"></a></th>
-                                <td><a href="#" class="text-primary fw-bold">Cv.Jam Tangan</a></td>
+                                    <td>
+                                        <a href="#" class="text-primary fw-bold">Cv.Jam Tangan</a>
+                                        <p>Lorem, ipsum dolor.</p>
+                                    </td>
                                 <td class="text-center">Content Creator</td>
+                                <td style="word-wrap: break-word;"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.ceat officiis!</p></td>
+
                                 <td class="text-center">5 Bulan</td>
                                 <td class="text-center">6</td>
                                 <td class="fw-bold text-center">5</td>
@@ -70,8 +75,12 @@
                                 <th scope="row" style="max-width: 100px;"><a href="#"><img
                                             src="{{ asset('admin/assets/img/product-4.jpg') }}"
                                             alt="" style="max-width: 100%;"></a></th>
-                                <td><a href="#" class="text-primary fw-bold">Pt.Kacamata</a></td>
+                                    <td>
+                                        <a href="#" class="text-primary fw-bold">Pt.Kacamata</a>
+                                        <p>Lorem, ipsum dolor.</p>
+                                    </td>
                                 <td class="text-center">Cyber Security</td>
+                                <td style="word-wrap: break-word;"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.ceat officiis!</p></td>
                                 <td class="text-center">3 Bulan</td>
                                 <td class="text-center">2</td>
                                 <td class="fw-bold text-center">2</td>

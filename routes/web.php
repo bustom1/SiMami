@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CompanyController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -28,3 +29,6 @@ Route::get('/admin/index', [HomeController::class, 'admin'])->name('admin.index'
 
 // Route Magang
 Route::get('/admin/magang', [MagangController::class, 'index'])->name('admin.magang.index');
+
+// Route Perusahaan
+Route::get('/admin/company', [CompanyController::class, 'index'])->name('admin.company.index');
