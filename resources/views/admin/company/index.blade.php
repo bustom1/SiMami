@@ -50,7 +50,12 @@
                                 <td class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing.</td>
                                 <td class="text-center">Lorem@gmail.com</td>
                                 <td class="text-center" style="word-wrap: break-word;"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cum qui architecto excepturi, dolor accusantium?</p></td>
-                                <td class="text-center">4</td>
+                                <td class="text-center">
+                                    <div class="btn-group">
+                                        <button class="btn btn-secondary rounded me-2 "><i class="ri-edit-2-fill"></i></button>
+                                        <button class="btn btn-secondary rounded ms-2 me-2"><i class="ri-delete-bin-5-fill"></i></button>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="max-width: 100px;"><a href="#"><img
@@ -62,7 +67,12 @@
                                 <td class="text-center">Lorem ipsum dolor sit amet.</td>
                                 <td class="text-center">lorem@gmail.com</td>
                                 <td class="text-center" style="word-wrap: break-word;"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.ceat officiis!</p></td>
-                                <td class="text-center">4</td>
+                                <td class="text-center">
+                                    <div class="btn-group">
+                                        <button class="btn btn-secondary rounded me-2 "><i class="ri-edit-2-fill"></i></button>
+                                        <button class="btn btn-secondary rounded ms-2 me-2"><i class="ri-delete-bin-5-fill"></i></button>
+                                    </div>
+                                </td>
                             </tr>
 
                             <tr>
@@ -75,7 +85,12 @@
                                 <td class="text-center">Lorem ipsum dolor sit..</td>
                                 <td class="text-center">lorem@gmail.com</td>
                                 <td class="text-center" style="word-wrap: break-word;"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.ceat officiis!</p></td>
-                                <td class="text-center">2</td>
+                                <td class="text-center">
+                                    <div class="btn-group">
+                                        <button class="btn btn-secondary rounded me-2 "><i class="ri-edit-2-fill"></i></button>
+                                        <button class="btn btn-secondary rounded ms-2 me-2"><i class="ri-delete-bin-5-fill"></i></button>
+                                    </div>
+                                </td>
                             </tr>
 
                         </tbody>

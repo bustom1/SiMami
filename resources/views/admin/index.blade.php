@@ -25,7 +25,7 @@
                         <div class="card info-card sales-card">
 
                             <div class="card-body">
-                                <h5 class="card-title">Magang</h5>
+                                <h5 class="card-title">Lowongan Magang</h5>
 
                                 <div class="d-flex align-items-center">
                                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
@@ -46,7 +46,7 @@
                         <div class="card info-card revenue-card">
 
                             <div class="card-body">
-                                <h5 class="card-title">Laporan</h5>
+                                <h5 class="card-title">Lamaran Magang</h5>
 
                                 <div class="d-flex align-items-center">
                                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
@@ -82,17 +82,14 @@
                             </div> --}}
 
                             <div class="card-body">
-                                <h5 class="card-title">Mahasiswa </h5>
+                                <h5 class="card-title">Mahasiswa Magang</h5>
 
                                 <div class="d-flex align-items-center">
                                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                                         <i class="bi bi-people"></i>
                                     </div>
                                     <div class="ps-3">
-                                        <h6>1244</h6>
-                                        {{-- <span class="text-danger small pt-1 fw-bold">12%</span> <span
-                                            class="text-muted small pt-2 ps-1">decrease</span> --}}
-
+                                        <h6>44</h6>
                                     </div>
                                 </div>
 
@@ -227,13 +224,6 @@
                                             <td><a href="#" class="text-primary">Manajemen</a></td>
                                             <td>4</td>
                                             <td><span class="badge bg-success">Approved</span></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><a href="#">4</a></th>
-                                            <td>Angus Grady</td>
-                                            <td><a href="#" class="text-primar">Akutansi</a></td>
-                                            <td>7</td>
-                                            <td><span class="badge bg-danger">Rejected</span></td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><a href="#">5</a></th>
