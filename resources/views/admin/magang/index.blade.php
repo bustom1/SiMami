@@ -28,10 +28,9 @@
                     <h5 class="card-title">Daftar Magang Perusahaan</h5>
                     
 
-                    <table class="table table-hover">
+                    <table class="table table-hover table-striped datatable">
                         <thead>
                             <tr>
-                                <th scope="col" style="width: 10%;">Icon</th>
                                 <th scope="col" style="max-width: 30%;">Nama Perusahaan</th>
                                 <th scope="col" class="text-center">Posisi</th>
                                 <th scope="col" class="text-center">Keterangan</th>
@@ -42,9 +41,9 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row" style="max-width: 100px;"><a href="#"><img
+                                {{-- <th scope="row" style="max-width: 100px;"><a href="#"><img
                                             src="{{ asset('admin/assets/img/product-1.jpg') }}"
-                                            alt="" class="img-fluid rounded-start" style="max-width: 100%;"></a></th>
+                                            alt="" class="img-fluid rounded-start" style="max-width: 100%;"></a></th> --}}
                                 <td style="word-wrap: break-word;">
                                     <a href="#" class="text-primary fw-bold">PT.Sepatu ID</a>
                                     <p>Lorem, ipsum dolor.</p>
@@ -56,9 +55,9 @@
                                 <td class="fw-bold text-center">4</td>
                             </tr>
                             <tr>
-                                <th scope="row" style="max-width: 100px;"><a href="#"><img
+                                {{-- <th scope="row" style="max-width: 100px;"><a href="#"><img
                                             src="{{ asset('admin/assets/img/product-2.jpg') }}"
-                                            alt="" style="max-width: 100%;"></a></th>
+                                            alt="" style="max-width: 100%;"></a></th> --}}
                                     <td>
                                         <a href="#" class="text-primary fw-bold">Cv.Jam Tangan</a>
                                         <p>Lorem, ipsum dolor.</p>
@@ -72,9 +71,9 @@
                             </tr>
 
                             <tr>
-                                <th scope="row" style="max-width: 100px;"><a href="#"><img
+                                {{-- <th scope="row" style="max-width: 100px;"><a href="#"><img
                                             src="{{ asset('admin/assets/img/product-4.jpg') }}"
-                                            alt="" style="max-width: 100%;"></a></th>
+                                            alt="" style="max-width: 100%;"></a></th> --}}
                                     <td>
                                         <a href="#" class="text-primary fw-bold">Pt.Kacamata</a>
                                         <p>Lorem, ipsum dolor.</p>

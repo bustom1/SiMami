@@ -28,7 +28,7 @@
                     <h5 class="card-title">Daftar Perusahaan</h5>
                     
 
-                    <table class="table table-hover">
+                    <table class="table table-hover table-striped datatable">
                         <thead>
                             <tr>
                                 <th scope="col" style="width: 10%;">Logo</th>

@@ -261,10 +261,10 @@
                             <div class="card-body pb-0">
                                 <h5 class="card-title">Daftar Perusahaan</h5>
 
-                                <table class="table table-hover">
+                                <table class="table table-hover table-striped datatable">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Icon</th>
+                                            {{-- <th scope="col">Icon</th> --}}
                                             <th scope="col">Nama Perusahaan</th>
                                             <th scope="col" class="text-center">Posisi</th>
                                             <th scope="col" class="text-center">Waktu</th>
@@ -274,9 +274,10 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row"><a href="#"><img
+                                            {{-- <th scope="row"><a href="#"><img
                                                         src="{{ asset('admin/assets/img/product-1.jpg') }}"
-                                                        alt=""></a></th>
+                                                        alt=""></a>
+                                                    </th> --}}
                                             <td>
                                                 <a href="#" class="text-primary fw-bold">PT.Sepatu ID</a>
                                                 <p>Alamat ipsum dolor sit.</p>
@@ -287,9 +288,9 @@
                                             <td class="fw-bold text-center">4</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row"><a href="#"><img
+                                            {{-- <th scope="row"><a href="#"><img
                                                         src="{{ asset('admin/assets/img/product-2.jpg') }}"
-                                                        alt=""></a></th>
+                                                        alt=""></a></th> --}}
                                             <td><a href="#" class="text-primary fw-bold">Cv.Jam Tangan</a>
                                                 <p>Alamat ipsum dolor sit.</p>
                                             </td>
@@ -300,9 +301,9 @@
                                         </tr>
 
                                         <tr>
-                                            <th scope="row"><a href="#"><img
+                                            {{-- <th scope="row"><a href="#"><img
                                                         src="{{ asset('admin/assets/img/product-4.jpg') }}"
-                                                        alt=""></a></th>
+                                                        alt=""></a></th> --}}
                                             <td><a href="#" class="text-primary fw-bold">Pt.Kacamata</a>
                                                 <p>Alamat ipsum dolor sit.</p>
                                             </td>
@@ -314,7 +315,6 @@
 
                                     </tbody>
                                 </table>
-
                             </div>
 
                         </div>
