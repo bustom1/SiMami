@@ -21,8 +21,8 @@
 
                     <div class="card-body pb-0 table-responsive">
                         <div class="position-absolute top-0 end-0 mt-3 me-5">
-                            <button type="button" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Add
-                                Perusahaan</button>
+                            <a href="{{route('admin.company.create')}}" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Add
+                                Perusahaan</a>
                         </div>
 
 

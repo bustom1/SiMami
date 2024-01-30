@@ -32,3 +32,4 @@ Route::get('/admin/magang', [MagangController::class, 'index'])->name('admin.mag
 
 // Route Perusahaan
 Route::get('/admin/company', [CompanyController::class, 'index'])->name('admin.company.index');
+Route::get('/admin/company/create', [CompanyController::class, 'create'])->name('admin.company.create');
