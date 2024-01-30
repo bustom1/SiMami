@@ -205,47 +205,48 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row"><a href="#">1</a></th>
-                                            <td>Brandon Jacob</td>
+                                            <th scope="row"><a href="#">7</a></th>
+                                            <td>Kevin Anderson</td>
                                             <td><a href="#" class="text-primary">Informatika</a></td>
                                             <td>4</td>
-                                            <td><span class="badge bg-success">Approved</span></td>
+                                            <td><span class="badge bg-danger">Ditolak</span></td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><a href="#">2</a></th>
                                             <td>Bridie Kessler</td>
                                             <td><a href="#" class="text-primary">Akutansi</a></td>
                                             <td>7</td>
-                                            <td><span class="badge bg-warning">Pending</span></td>
+                                            <td><span class="badge bg-warning">Melamar</span></td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><a href="#">3</a></th>
                                             <td>Ashleigh Langosh</td>
                                             <td><a href="#" class="text-primary">Manajemen</a></td>
                                             <td>4</td>
-                                            <td><span class="badge bg-success">Approved</span></td>
+                                            <td><span class="badge bg-success">Magang</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">1</a></th>
+                                            <td>Brandon Jacob</td>
+                                            <td><a href="#" class="text-primary">Informatika</a></td>
+                                            <td>4</td>
+                                            <td><span class="badge bg-warning">Melamar</span></td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><a href="#">5</a></th>
                                             <td>Raheem Lehner</td>
                                             <td><a href="#" class="text-primary">Informatika</a></td>
                                             <td>4</td>
-                                            <td><span class="badge bg-success">Approved</span></td>
+                                            <td><span class="badge bg-success">Magang</span></td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><a href="#">6</a></th>
                                             <td>Nice Lehner</td>
                                             <td><a href="#" class="text-primary">Informatika</a></td>
                                             <td>2</td>
-                                            <td><span class="badge bg-success">Rejected</span></td>
+                                            <td><span class="badge bg-danger">Ditolak</span></td>
                                         </tr>
-                                        <tr>
-                                            <th scope="row"><a href="#">7</a></th>
-                                            <td>Kevin Anderson</td>
-                                            <td><a href="#" class="text-primary">Informatika</a></td>
-                                            <td>4</td>
-                                            <td><span class="badge bg-success">Approved</span></td>
-                                        </tr>
+
                                     </tbody>
                                 </table>
 
@@ -269,50 +270,62 @@
                                             <th scope="col" class="text-center">Posisi</th>
                                             <th scope="col" class="text-center">Waktu</th>
                                             <th scope="col" class="text-center">Lowongan</th>
-                                            <th scope="col" class="text-center">Magang</th>
+                                            <th scope="col" class="text-center">Expired</th>
+                                            <th scope="col" class="text-center">Pendaftar</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            {{-- <th scope="row"><a href="#"><img
-                                                        src="{{ asset('admin/assets/img/product-1.jpg') }}"
-                                                        alt=""></a>
-                                                    </th> --}}
-                                            <td>
+                                            <td style="word-wrap: break-word;">
                                                 <a href="#" class="text-primary fw-bold">PT.Sepatu ID</a>
-                                                <p>Alamat ipsum dolor sit.</p>
+                                                <p>Jl.Jakarta No.10 Indonesia</p>
                                             </td>
-                                            <td class="text-center">Developer</td>
-                                            <td class="text-center">2 Bulan</td>
-                                            <td class="text-center">4</td>
-                                            <td class="fw-bold text-center">4</td>
+                                            <td class="text-center align-middle center">Developer</td>
+                                            <td class="text-center align-middle">
+                                                <div class="d-xxl-flex flex-column">
+                                                    <div>19 Januari 2024</div>
+                                                    <div>2 Maret 2024</div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center align-middle ">4</td>
+                                            <td class="text-center align-middle ">10 Januari 2024</td>
+                                            <td class="fw-bold text-center align-middle text-danger">9</td>
                                         </tr>
                                         <tr>
-                                            {{-- <th scope="row"><a href="#"><img
-                                                        src="{{ asset('admin/assets/img/product-2.jpg') }}"
-                                                        alt=""></a></th> --}}
-                                            <td><a href="#" class="text-primary fw-bold">Cv.Jam Tangan</a>
-                                                <p>Alamat ipsum dolor sit.</p>
+                                            <td>
+                                                <a href="#" class="text-primary fw-bold">Cv.Jam Tangan</a>
+                                                <p>Jawa Timur Surabaya Rt.04 Rw.04 </p>
                                             </td>
-                                            <td class="text-center">Conten Creator</td>
-                                            <td class="text-center">5 Bulan</td>
-                                            <td class="text-center">6</td>
-                                            <td class="fw-bold text-center">5</td>
+                                            <td class="text-center align-middle">Content Creator</td>
+                                            <td class="text-center align-middle">
+                                                <div class="d-xxl-flex flex-column">
+                                                    <div>5 Januari 2024</div>
+                                                    <div>25 Februari 2024</div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center align-middle">6</td>
+                                            <td class="text-center align-middle">1 Januari 2024</td>
+                                            <td class="fw-bold text-center text-success align-middle">6</td>
                                         </tr>
-
+        
                                         <tr>
-                                            {{-- <th scope="row"><a href="#"><img
-                                                        src="{{ asset('admin/assets/img/product-4.jpg') }}"
-                                                        alt=""></a></th> --}}
-                                            <td><a href="#" class="text-primary fw-bold">Pt.Kacamata</a>
-                                                <p>Alamat ipsum dolor sit.</p>
+                                            <td>
+                                                <a href="#" class="text-primary fw-bold">Pt.Kacamata</a>
+                                                <p>Jl. Malang</p>
                                             </td>
-                                            <td class="text-center">Cyber Security</td>
-                                            <td class="text-center">3 Bulan</td>
-                                            <td class="text-center">2</td>
-                                            <td class="fw-bold text-center">2</td>
+                                            <td class="text-center align-middle">Cyber Security</td>
+                                            <td class="text-center align-middle">
+                                                <div class="d-xxl-flex flex-column">
+                                                    <div>28 Januari 2024</div>
+                                                    <div>7 April 2024</div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center align-middle">12</td>
+                                            <td class="text-center align-middle">21 Januari 2024</td>
+                                            <td class="fw-bold text-center text-warning align-middle">3</td>
+                                            
                                         </tr>
-
+        
                                     </tbody>
                                 </table>
                             </div>

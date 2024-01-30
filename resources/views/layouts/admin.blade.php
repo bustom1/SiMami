@@ -47,7 +47,7 @@
 
         <div class="d-flex align-items-center justify-content-between">
             <a href="{{ route('admin.index') }}" class="logo d-flex align-items-center">
-                <img src="{{ asset('admin/assets/img/logo.png') }}" alt="" style="width: 35px; height: 150px;">
+                <img src="{{ asset('admin/assets/img/logo.png') }}" alt="" style="width: 30px; height: 150px;">
                 <!-- Sesuaikan ukuran yang Anda inginkan -->
                 <span class="d-none d-lg-block">SIMAMI</span>
             </a>
@@ -247,19 +247,21 @@
                                 <span>Account Settings</span>
                             </a>
                         </li>
+
                         <li>
                             <hr class="dropdown-divider">
                         </li>
 
                         <li>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
+                            <a class="dropdown-item d-flex align-items-center" href="{{ route('logout') }}"
+                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 <i class="bi bi-box-arrow-right"></i>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                    class="d-none">
-                                    @csrf
-                                    <span>Sign Out</span>
-                                </form>
+                                <span>Keluar</span>
                             </a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+
                         </li>
 
                     </ul>
@@ -280,7 +282,7 @@
         <ul class="sidebar-nav" id="sidebar-nav">
 
             <!-- Start Dashboard Nav -->
-            <li class="nav-item" >
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="{{ route('admin.index') }}" onclick="showPage('dashboard')">
                     <i class="bi bi-grid"></i>
                     <span>Dashboard</span>
@@ -299,7 +301,8 @@
 
             <!-- Start Perusahaan Page Nav -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="{{ route('admin.company.index') }}" onclick="showPage('perusahaan')">
+                <a class="nav-link collapsed" href="{{ route('admin.company.index') }}"
+                    onclick="showPage('perusahaan')">
                     <i class="bx bxs-business"></i>
                     <span>Perusahaan</span>
                 </a>
@@ -324,15 +327,7 @@
             </li>
             <!-- End Profile Page Nav -->
 
-            <!-- Start Sign Out Page Nav -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#">
-                    <i class="bi bi-box-arrow-in-right"></i>
-                    <span>Sign Out</span>
-                </a>
-            </li>
-            <!-- End Sign Out Page Nav -->
-
+            
         </ul>
 
     </aside>
