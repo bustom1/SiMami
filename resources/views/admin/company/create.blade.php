@@ -25,115 +25,110 @@
                         <!-- General Form Elements -->
                         <form>
                             <div class="row mb-3">
-                                <label for="inputText" class="col-sm-2 col-form-label">Nama Perusahaan</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control">
+                                <label for="inputLogo" class="col-sm-4 col-xxl-1 col-form-label">Profile</label>
+                                <div class="col-sm-11">
+                                    <input id="inputLogo" class="form-control" type="file" id="formFile">
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
-                                <div class="col-sm-10">
-                                    <input type="email" class="form-control">
+                                <label for="inputNama" class="col-sm-4 col-xxl-1 col-form-label">Nama</label>
+                                <div class="col-sm-11">
+                                    <input id="inputNama" type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                                <div class="col-sm-10">
-                                    <input type="password" class="form-control">
+                                <label for="inputEmail" class="col-sm-4 col-xxl-1 col-form-label">Email</label>
+                                <div class="col-sm-11">
+                                    <input id="inputEmail" type="email" class="form-control">
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <label for="inputNumber" class="col-sm-2 col-form-label">Number</label>
-                                <div class="col-sm-10">
-                                    <input type="number" class="form-control">
+                                <label for="inputAlamat" class="col-sm-4 col-xxl-1 col-form-label">Alamat</label>
+                                <div class="col-sm-11">
+                                    <input id="inputAlamat" type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <label for="inputNumber" class="col-sm-2 col-form-label">Logo</label>
-                                <div class="col-sm-10">
-                                    <input class="form-control" type="file" id="formFile">
+                                <label for="inputPassword" class="col-sm-4 col-xxl-1 col-form-label">Password</label>
+                                <div class="col-sm-11">
+                                    <input id="inputPassword" type="password" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputPhone" class="col-sm-4 col-xxl-1 col-form-label">No Hp</label>
+                                <div class="col-sm-11">
+                                    <input id="inputPhone" type="number" class="form-control">
+                                </div>
+                            </div>
+
+
+                            <div class="row mb-3">
+                                <label for="inputAbout" class="col-sm-3 col-xxl-1 col-form-label">About Us</label>
+                                <div class="col-sm-11">
+                                    <textarea id="inputAbout" class="form-control" style="height: 100px"></textarea>
                                 </div>
                             </div>
 
                             <div class="row mb-3">
-                                <label for="inputPassword" class="col-sm-2 col-form-label">About Us</label>
-                                <div class="col-sm-10">
-                                    <textarea class="form-control" style="height: 100px"></textarea>
-                                </div>
-                            </div>
-                            {{-- <fieldset class="row mb-3">
-                                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
-                                            value="option1" checked>
-                                        <label class="form-check-label" for="gridRadios1">
-                                            First radio
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                            value="option2">
-                                        <label class="form-check-label" for="gridRadios2">
-                                            Second radio
-                                        </label>
-                                    </div>
-                                    <div class="form-check disabled">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios"
-                                            value="option" disabled>
-                                        <label class="form-check-label" for="gridRadios3">
-                                            Third disabled radio
-                                        </label>
-                                    </div>
-                                </div>
-                            </fieldset> --}}
-                            {{-- <div class="row mb-3">
-                                <legend class="col-form-label col-sm-2 pt-0">Checkboxes</legend>
-                                <div class="col-sm-10">
-
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                        <label class="form-check-label" for="gridCheck1">
-                                            Example checkbox
-                                        </label>
-                                    </div>
-
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck2" checked>
-                                        <label class="form-check-label" for="gridCheck2">
-                                            Example checkbox 2
-                                        </label>
-                                    </div>
-                                </div>
-                            </div> --}}
-
-                            <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label">Kategori</label>
-                                <div class="col-sm-10">
+                                <label class="col-sm-3 col-xxl-1 col-form-label">Kategori</label>
+                                <div class="col-sm-11">
                                     <select class="form-select" aria-label="Default select example">
-                                        <option selected>Open this select menu</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
+                                        <option selected>Pilih Kategori</option>
+                                        <option value="1">Keuangan</option>
+                                        <option value="2">Ritel</option>
+                                        <option value="3">Manufaktur</option>
+                                        <option value="4">Jasa</option>
+                                        <option value="5">Edukasi</option>
+                                        <option value="6">Media</option>
                                     </select>
                                 </div>
                             </div>
 
-                            {{-- <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label">Multi Select</label>
-                                <div class="col-sm-10">
-                                    <select class="form-select" multiple aria-label="multiple select example">
-                                        <option selected>Open this select menu</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div> --}}
 
-                            <div class="row mb-3 pt-3 pb-4">
-                                <label class="col-sm-2 col-form-label"></label>
-                                <div class="col-sm-10">
+                            <div class="row mb-3">
+                                <label for="inputWeb" class="col-sm-4 col-xxl-1 col-form-label">Website</label>
+                                <div class="col-sm-11 col-xxl-11">
+                                    <input id="inputWeb" type="number" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="card row mb-3 ms-3 ps-2 pb-5 pt-2 me-3">
+                                <div class="fs-3 fw-semibold mb-3">Sosial Media</div>
+
+                                <div class="row col-sm-4 col-xxl-12">
+                                    <div class="col">
+                                        <label for="inputFacebook" class="col-form-label">Facebook <i
+                                                class="bi bi-facebook"></i></label>
+                                        <input id="inputFacebook" type="number" class="form-control">
+                                    </div>
+
+                                    <div class="col">
+                                        <label for="inputInstagram" class="col-form-label">Instagram <i
+                                                class="bi bi-instagram"></i></label>
+                                        <input id="inputInstagram" type="number" class="form-control">
+                                    </div>
+
+                                    <div class="col">
+                                        <label for="inputTwitter" class="col-form-label">Twitter <i
+                                                class="bi bi-twitter"></i></label>
+                                        <input id="inputTwitter" type="number" class="form-control">
+                                    </div>
+
+                                    <div class="col">
+                                        <label for="inputLinkedi" class="col-form-label">Linkedin <i
+                                                class="bi bi-linkedin"></i></label>
+                                        <input id="inputLinkedi" type="number" class="form-control">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="row mb-3 pt-3 pb-4 justify-content-center">
+                                <label class=" col-form-label"></label>
+                                <div class="col-sm-3 col-xxl-3 ps-5 me-4 pb-4 ">
+                                    <a href="{{ route('admin.company.index') }}" class="btn btn-secondary">Kembali</a>
+                                </div>
+                                <div class="col-sm-3 col-xxl-2 ms-4">
                                     <button type="submit" class="btn btn-primary">Submit Form</button>
                                 </div>
                             </div>

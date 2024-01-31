@@ -33,6 +33,7 @@
                             <thead>
                                 <tr>
                                     <th scope="col" style="max-width: 40%;">Nama Perusahaan</th>
+                                    <th scope="col" class="text-center">Phone</th>
                                     <th scope="col" class="text-center">Alamat</th>
                                     <th scope="col" class="text-center">Email</th>
                                     <th scope="col" class="text-center">Kategori</th>
@@ -50,6 +51,7 @@
                                             </span>
                                             <a href="#" class="text-primary fw-bold">PT.TransTv</a>
                                         </div></td>
+                                    <td class="text-center">0858567819689</td>
                                     <td class="text-center">Jl.Pasuruan No.29</td>
                                     <td class="text-center">Lorem@gmail.com</td>
                                     <td class="text-center">Media</td>
@@ -72,6 +74,7 @@
                                             </span>
                                             <a href="#" class="text-primary fw-bold">PT.Dicoding Indonesia</a>
                                         </div></td>
+                                    <td class="text-center">089647810297</td>
                                     <td class="text-center">Jl.Surabaya Indonesia.</td>
                                     <td class="text-center">lorem@gmail.com</td>
                                     <td class="text-center">Edukasi</td>
@@ -96,6 +99,7 @@
                                             <a href="#" class="text-primary fw-bold">Cv.Technology Global</a>
                                         </div></td>
                                     
+                                    <td class="text-center">0882980437930</td>
                                     <td class="text-center">Jl.Wakhid Hasim Jawa Timur.</td>
                                     <td class="text-center">lorem@gmail.com</td>
                                     <td class="text-center">Teknologi Informasi</td>
