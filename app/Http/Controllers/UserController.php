@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreMagangRequest;
-use App\Http\Requests\UpdateMagangRequest;
-use App\Models\Magang;
+use App\Models\User;
+use Illuminate\Http\Request;
 
-class MagangController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +14,7 @@ class MagangController extends Controller
      */
     public function index()
     {
-        return view('admin.magang.index');
+        return view('user.index');
     }
 
     /**
@@ -25,20 +24,16 @@ class MagangController extends Controller
      */
     public function create()
     {
-        return view('admin.magang.create');
+        //
     }
 
-
-    public function user() {
-        return view('user.magang.index');
-    }
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreMagangRequest  $request
+     * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreMagangRequest $request)
+    public function store(Request $request)
     {
         //
     }
@@ -46,10 +41,10 @@ class MagangController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Magang  $magang
+     * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function show(Magang $magang)
+    public function show(User $user)
     {
         //
     }
@@ -57,10 +52,10 @@ class MagangController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Magang  $magang
+     * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function edit(Magang $magang)
+    public function edit(User $user)
     {
         //
     }
@@ -68,11 +63,11 @@ class MagangController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateMagangRequest  $request
-     * @param  \App\Models\Magang  $magang
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateMagangRequest $request, Magang $magang)
+    public function update(Request $request, User $user)
     {
         //
     }
@@ -80,10 +75,10 @@ class MagangController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Magang  $magang
+     * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Magang $magang)
+    public function destroy(User $user)
     {
         //
     }

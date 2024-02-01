@@ -27,37 +27,37 @@
                             <div class="row mb-3">
                                 <label for="inputLogo" class="col-sm-4 col-xxl-1 col-form-label">Profile</label>
                                 <div class="col-sm-11">
-                                    <input id="inputLogo" class="form-control" type="file" id="formFile">
+                                    <input id="inputLogo" class="form-control" type="file" id="formFile" >
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <label for="inputNama" class="col-sm-4 col-xxl-1 col-form-label">Nama</label>
                                 <div class="col-sm-11">
-                                    <input id="inputNama" type="text" class="form-control">
+                                    <input id="inputNama" type="text" class="form-control" placeholder="Nama Perusahaan">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <label for="inputEmail" class="col-sm-4 col-xxl-1 col-form-label">Email</label>
                                 <div class="col-sm-11">
-                                    <input id="inputEmail" type="email" class="form-control">
+                                    <input id="inputEmail" type="email" class="form-control" placeholder="Email">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <label for="inputAlamat" class="col-sm-4 col-xxl-1 col-form-label">Alamat</label>
                                 <div class="col-sm-11">
-                                    <input id="inputAlamat" type="text" class="form-control">
+                                    <input id="inputAlamat" type="text" class="form-control" placeholder="Alamat Perusahaan">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <label for="inputPassword" class="col-sm-4 col-xxl-1 col-form-label">Password</label>
                                 <div class="col-sm-11">
-                                    <input id="inputPassword" type="password" class="form-control">
+                                    <input id="inputPassword" type="password" class="form-control" placeholder="********">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <label for="inputPhone" class="col-sm-4 col-xxl-1 col-form-label">No Hp</label>
                                 <div class="col-sm-11">
-                                    <input id="inputPhone" type="number" class="form-control">
+                                    <input id="inputPhone" type="number" class="form-control" placeholder="+62">
                                 </div>
                             </div>
 
@@ -65,7 +65,7 @@
                             <div class="row mb-3">
                                 <label for="inputAbout" class="col-sm-3 col-xxl-1 col-form-label">About Us</label>
                                 <div class="col-sm-11">
-                                    <textarea id="inputAbout" class="form-control" style="height: 100px"></textarea>
+                                    <textarea id="inputAbout" class="form-control" style="height: 100px" placeholder="Tentang Perusahaan"></textarea>
                                 </div>
                             </div>
 
@@ -88,7 +88,7 @@
                             <div class="row mb-3">
                                 <label for="inputWeb" class="col-sm-4 col-xxl-1 col-form-label">Website</label>
                                 <div class="col-sm-11 col-xxl-11">
-                                    <input id="inputWeb" type="number" class="form-control">
+                                    <input id="inputWeb" type="text" class="form-control" placeholder="Link Website Perusahaan">
                                 </div>
                             </div>
 
@@ -99,31 +99,31 @@
                                     <div class="col">
                                         <label for="inputFacebook" class="col-form-label">Facebook <i
                                                 class="bi bi-facebook"></i></label>
-                                        <input id="inputFacebook" type="number" class="form-control">
+                                        <input id="inputFacebook" type="text" class="form-control" placeholder="https://facebook.com/#">
                                     </div>
 
                                     <div class="col">
                                         <label for="inputInstagram" class="col-form-label">Instagram <i
                                                 class="bi bi-instagram"></i></label>
-                                        <input id="inputInstagram" type="number" class="form-control">
+                                        <input id="inputInstagram" type="text" class="form-control" placeholder="https://instagram.com/#">
                                     </div>
 
                                     <div class="col">
                                         <label for="inputTwitter" class="col-form-label">Twitter <i
                                                 class="bi bi-twitter"></i></label>
-                                        <input id="inputTwitter" type="number" class="form-control">
+                                        <input id="inputTwitter" type="text" class="form-control" placeholder="https://twitter.com/#">
                                     </div>
 
                                     <div class="col">
                                         <label for="inputLinkedi" class="col-form-label">Linkedin <i
                                                 class="bi bi-linkedin"></i></label>
-                                        <input id="inputLinkedi" type="number" class="form-control">
+                                        <input id="inputLinkedi" type="text" class="form-control" placeholder="https://linkedin.com/#">
                                     </div>
 
                                 </div>
                             </div>
 
-                            <div class="row mb-3 pt-3 pb-4 justify-content-center">
+                            <div class="row mb-3 pb-4 justify-content-center">
                                 <label class=" col-form-label"></label>
                                 <div class="col-sm-3 col-xxl-3 ps-5 me-4 pb-4 ">
                                     <a href="{{ route('admin.company.index') }}" class="btn btn-secondary">Kembali</a>
